@@ -26,11 +26,11 @@ int mul()
     return a*b;
 }
 
-int div()
+float div()
 {
-    int a,b;
+    float a,b;
     printf("\nenter two nos: ");
-    scanf("%d%d",&a,&b);
+    scanf("%f%f",&a,&b);
     return a/b;
 }
 
@@ -57,9 +57,9 @@ int fac()
 
 float root()
 {
-    float a;
+    int  a;
     printf("\nenter no: ");
-    scanf("%.2f",&a);
+    scanf("%d",&a);
     return sqrt(a);
 }
 
@@ -96,27 +96,27 @@ int main()
         {
         case 1:
             m=sum();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 2:
             m=sub();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 3:
             m=mul();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 4:
             m=div();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 5:
             m=power();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 6:
             m=fac();
-            printf("\nresult=%d\n",m);
+            printf("\nresult=%f\n",m);
             break;
         case 7:
         m=root();
